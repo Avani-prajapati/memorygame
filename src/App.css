@@ -1,0 +1,38 @@
+body{
+
+background-color: rgb(23, 22, 22);
+}
+.Header{
+color: white;
+text-shadow:3px 2px rgb(108, 105, 105);
+text-align: center;
+font-size: 1.4rem;
+}
+.gamemain{
+  
+  margin: 40px;
+}
+
+.newgame{
+margin-top: 1px;
+  font-size: 1rem;
+  text-shadow: 1.5px 1px rgb(155, 143, 143);
+ background-color: rgb(26, 58, 73);
+ color: white;
+ padding-top: 0;
+ padding: 0.5rem;
+ border-radius: 7px;
+}
+
+.Cards-grid{
+display: grid;
+width: fit-content;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding-left: 20rem;
+padding-top: 2rem;
+grid-gap: 1.5rem;
+}
+
+::-webkit-scrollbar{
+width: 0;
+}
